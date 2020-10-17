@@ -10,11 +10,12 @@ QueryDB is a tool to allow anyone to take advantage of the power of large and sm
 
 #### QueryDB Features!
 
-  - **Browser-based** : Everything in your browser
-  - **Ease-of-use** : Become immediately productive with data widhout the need to master comlex software
-  - **Query editor** : Quickly compose SQL an NoSQL querys with a schema browser and auto-complete
-  - **REST API** : Everything that can be donde in the UI is also available through REST API
-  - **Broad support for data sources** : extensible data source API with native support for a long list of common databases and platforms
+  - **Browser-based** : Everything in your browser.
+  - **Ease-of-use** : Become immediately productive with data without the need to master complex software.
+  - **Query editor** : Quickly compose SQL and NoSQL queries with a schema browser and auto-complete.
+   - **Expression Language** : It´s use  [Spring Expression Language](https://docs.spring.io/spring-framework/docs/3.0.x/reference/expressions.html) to make complex rules to querys SQL and NoSQL.
+  - **REST API** : Everything that can be done in the UI is also available through REST API
+  - **Broad support for data sources** : Extensible data source API with native support for a long list of common databases and platforms
 
 #### QueryDB Arquitecture!
   - Developing
