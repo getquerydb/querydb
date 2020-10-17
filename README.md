@@ -1,8 +1,8 @@
 # QueryDB
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5165e705-198a-4979-8df3-3ee708118a7f/deploy-status)](https://app.netlify.com/sites/querydb/deploys)
 
-QueryDB is a tool to allow anyone to take advantage of the power of large and small data, QueryDB allows connecting to multiple data sources, exploring and executing complex queries according to the language of the database engine, this data can be exported to many JSON, XML formats among others.
+QueryDB is a tool to allow anyone to take advantage of the power of large and small data, QueryDB allows connecting to multiple data sources, exploring and executing complex queries according to the language of the database engine, this data can be exported to many format as JSON, XML formats among others.
 
   - Connect Any Sources
   - Explore and Execue Complex query
@@ -20,16 +20,9 @@ QueryDB is a tool to allow anyone to take advantage of the power of large and sm
 
 You can run QueryDB in the following environments:
 
-* [Application monolithic] - HTML enhanced for web apps!
-* [Microservices] - awesome web-based text editor
-* [Spring Cloud] - Markdown parser done right. Fast and easy to extend.
-
-For production environments...
-
-```sh
-$ npm install --production
-$ NODE_ENV=production node app
-```
+* Application monolithic
+* Microservices
+* Spring Cloud
 
 ### Supported Data Sources
 
@@ -44,11 +37,6 @@ Support Data Sources
 - [x] Cassandra
 - [x] Elasticsearch
 
-#### Building for source
-For production release:
-```sh
-$ mvn clean package --prod
-```
 
 ### Docker
 QueryDB is very easy to install and deploy in a Docker container.
@@ -58,7 +46,7 @@ By default, the Docker will expose port 8080, so change this within the Dockerfi
 ```sh
 docker build -t querydb/querydb:${package.json.version} .
 ```
-
+### Spring cloud
 Add the following dependency to your pom.xml after you have build this project locally.
 ```xml
 <dependency>
