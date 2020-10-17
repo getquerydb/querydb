@@ -8,7 +8,7 @@ QueryDB is a tool to allow anyone to take advantage of the power of large and sm
   - **Explore and Execue Complex query**
   - **Export Any Format**
 
- QueryDB Features!
+#### QueryDB Features!
 
   - **Browser-based** : Everything in your browser
   - **Ease-of-use** : Become immediately productive with data widhout the need to master comlex software
@@ -16,7 +16,7 @@ QueryDB is a tool to allow anyone to take advantage of the power of large and sm
   - **REST API** : Everything that can be donde in the UI is also available through REST API
   - **Broad support for data sources** : extensible data source API with native support for a long list of common databases and platforms
 
- QueryDB Arquitecture!
+#### QueryDB Arquitecture!
   - Developing
   
 #### Getting started
