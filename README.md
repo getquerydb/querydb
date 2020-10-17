@@ -4,27 +4,30 @@
 
 QueryDB is a tool to allow anyone to take advantage of the power of large and small data, QueryDB allows connecting to multiple data sources, exploring and executing complex queries according to the language of the database engine, this data can be exported to many format as JSON, XML formats among others.
 
-  - Connect Any Sources
-  - Explore and Execue Complex query
-  - Export Any Format
+  - **Connect Any Sources**
+  - **Explore and Execue Complex query**
+  - **Export Any Format**
 
  QueryDB Features!
 
-  - [Browser-based]: Everything in your browser
-  - [Ease-of-use]: Become immediately productive with data widhout the need to master comlex software
-  - [Query editor]: Quickly compose SQL an NoSQL querys with a schema browser and auto-complete
-  - [REST API]: Everything that can be donde in the UI is also available through REST API
-  - [Broad support for data sources]: extensible data source API with native support for a long list of common databases and platforms
+  - **Browser-based** : Everything in your browser
+  - **Ease-of-use** : Become immediately productive with data widhout the need to master comlex software
+  - **Query editor** : Quickly compose SQL an NoSQL querys with a schema browser and auto-complete
+  - **REST API** : Everything that can be donde in the UI is also available through REST API
+  - **Broad support for data sources** : extensible data source API with native support for a long list of common databases and platforms
 
-### Getting started
+ QueryDB Arquitecture!
+  - Developing
+  
+#### Getting started
 
 You can run QueryDB in the following environments:
 
-* Application monolithic
-* Microservices
-* Spring Cloud
+* **Monolithics**
+* **Microservices**
+* **Spring Cloud**
 
-### Supported Data Sources
+#### Supported Data Sources
 
 QueryDB supports more than 7 SQL and NoSQL datasources, it can also be extended to support more. Below is a lis of build-in sources.
 
@@ -38,7 +41,7 @@ Support Data Sources
 - [x] Elasticsearch
 
 
-### Docker
+#### Docker
 QueryDB is very easy to install and deploy in a Docker container.
 
 By default, the Docker will expose port 8080, so change this within the Dockerfile if necessary. When ready, simply use the Dockerfile to build the image.
@@ -46,17 +49,17 @@ By default, the Docker will expose port 8080, so change this within the Dockerfi
 ```sh
 docker build -t querydb/querydb:${package.json.version} .
 ```
-### Spring cloud
+#### Spring cloud
 Add the following dependency to your pom.xml after you have build this project locally.
 ```xml
 <dependency>
-	<groupId>com.querydb.querydb</groupId>
-	<artifactId>querydb-cloud</artifactId>
+	<groupId>com.querydb</groupId>
+	<artifactId>querydb-app</artifactId>
 	<version>1.0.0.RELEASE</version>
 </dependency>
 ```
 
-Create the Spring Cloud Dashboard with only one single Annotation.
+Create the QueryDB with only one single Annotation.
 ```java
 @SpringBootApplication
 @EnableEurekaServer
@@ -73,7 +76,7 @@ public class Application {
 - Want to help us build QueryDB? Fork the project, edit in a dev environment and make a pull request. We need all the help we can get!
 
 
-### Security
+#### Security
 
 Please email reyiclaros@gmail.com to report any security vulnerabilities. We will acknowledge receipt of your vulnerability and strive to send you regular updates about our progress
 
