@@ -2,11 +2,11 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5165e705-198a-4979-8df3-3ee708118a7f/deploy-status)](https://app.netlify.com/sites/querydb/deploys)
 
-QueryDB is a tool to allow anyone to take advantage of the power of large and small data, QueryDB allows connecting to multiple data sources, exploring and executing complex queries according to the language of the database engine, this data can be exported to many format as JSON, XML formats among others.
+QueryDB is a tool to allow anyone to take advantage of the power of large and small data, QueryDB allows connecting to multiple data sources, exploring and executing complex queries according to the language of the database engine, this data can be exported to as API REST.
 
   - **Connect Any Sources**
   - **Explore and Execue Complex query**
-  - **Export Any Format**
+  - **Export as API REST**
 
 #### QueryDB Features!
 
@@ -34,13 +34,16 @@ QueryDB supports more than 7 SQL and NoSQL datasources, it can also be extended 
 
 Support Data Sources
 - [x] MySQL
+- [x] MariaDB
 - [x] Oracle
 - [x] SQL Server
 - [x] PostgreSQL
-- [x] Redis
-- [x] Cassandra
-- [x] Elasticsearch
-
+- [x] Apache Derbi
+- [x] H2
+- [x] MSAccess
+- [x] SQLIte
+- [ ] Vertica
+- [ ] AS400
 
 #### Docker
 QueryDB is very easy to install and deploy in a Docker container.
@@ -63,8 +66,6 @@ Add the following dependency to your pom.xml after you have build this project l
 Create the QueryDB with only one single Annotation.
 ```java
 @SpringBootApplication
-@EnableEurekaServer
-@EnableDiscoveryClient
 @EnableQueryDB
 public class Application {
 	public static void main(String[] args) {
