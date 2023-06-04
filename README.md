@@ -23,7 +23,7 @@ QueryDB is a tool to allow anyone to take advantage of the power of large and sm
 #### Getting started
 
 You can run QueryDB in the following environments:
-
+* **Docker**
 * **Monolithics**
 * **Microservices**
 * **Spring Cloud**
